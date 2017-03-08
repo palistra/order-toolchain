@@ -13,7 +13,7 @@
         },
         "orders-api-repo_url": {
             "type": "string"
-        },
+        }
     },
     "required": ["orders-api-repo_name", "orders-api-repo_url"],
     "form": [
