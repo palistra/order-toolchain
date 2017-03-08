@@ -30,7 +30,7 @@ template:
       [https://github.com/palistra/order-toolchain](https://github.com/palistra/order-toolchain)
     git branch: '[master](https://github.com/palistra/order-toolchain/tree/master)'
 toolchain:
-  name: 'order-toolchain-{{timestamp}}'
+  name: 'toolchain-demo-{{timestamp}}'
   template:
     getting_started: |-
       **Your toolchain is ready!**
