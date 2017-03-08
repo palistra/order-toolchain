@@ -47,17 +47,9 @@
         "orders-app-name": {
             "description": "The name of the app for the Orders API",
             "type": "string"
-        },
-       "catalog-app-name": {
-            "description": "The name of the app for the Catalog API",
-            "type": "string"
-        },
-       "ui-app-name": {
-            "description": "The name of the app for the UI that calls the Orders and Catalog APIs",
-            "type": "string"
-        }
+        },       
     },
-    "required": ["dev-region", "dev-organization", "dev-space", "qa-region", "qa-organization", "qa-space", "prod-region", "prod-organization", "prod-space", "orders-app-name", "catalog-app-name", "ui-app-name"],
+    "required": ["dev-region", "dev-organization", "dev-space", "qa-region", "qa-organization", "qa-space", "prod-region", "prod-organization", "prod-space", "orders-app-name"],
     "form": [
        {
           "type": "validator",
@@ -68,19 +60,7 @@
           "readonly": false,
           "title": "Orders app name",
           "key": "orders-app-name"
-        },
-        {
-          "type": "text",
-          "readonly": false,
-          "title": "Catalog app name",
-          "key": "catalog-app-name"
-        },
-        {
-          "type": "text",
-          "readonly": false,
-          "title": "UI app name",
-          "key": "ui-app-name"
-        },
+        },        
         {
             "type": "table",
             "columnCount": 4,
