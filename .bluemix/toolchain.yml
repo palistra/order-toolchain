@@ -43,7 +43,6 @@ services:
     parameters:
       services:
         - orders-api-repo
-        - test
       name: 'orders-api-{{toolchain.name}}'
       configuration:
         content:
